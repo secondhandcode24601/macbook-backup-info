@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy — MacBook Air Daily Backup</title>
+<style>body{max-width:44rem;margin:4rem auto;padding:0 1.5rem;font:18px/1.65 Georgia,serif;color:#233b3b;background:#f6f3eb}h1{line-height:1.2}a{color:#215f70}small{color:#536261}</style>
+<main><small>Last updated 14 October 2026</small><h1>Privacy and data handling</h1>
+<p>MacBook Air Daily Backup is a single-user, personally operated backup utility. It has no service operator receiving users' files and no hosted application server.</p>
+<h2>Data used</h2><p>The local backup process reads the owner's selected files and metadata to upload, compare and verify backup copies. It requests Google's <code>drive.file</code> permission: access to specific files created by or authorized for this application. It does not request unrestricted access to the owner's existing Drive contents.</p>
+<h2>Storage and transfer</h2><p>Backup files are sent directly from the owner's device to the owner's Google Drive using rclone. File contents and retained versions are stored there under the owner's existing Google account. This public website does not contain or receive backup files, authentication tokens, private directory listings or backup status records.</p>
+<p>OAuth credentials remain in a private configuration file on the owner's device. They are excluded from the file backup. The owner may also use their existing Codex account for an optional health monitor that reviews backup status and storage-use metadata; the transfer engine itself sends backup contents only to Google Drive.</p>
+<h2>Retention and control</h2><p>Earlier copies of changed files are retained in the owner's Drive. Deleting a file locally does not automatically delete its cloud copy. The owner controls deletion and sharing through Google Drive and may revoke the application's authorization through Google Account settings. No backup content is intentionally made public by this utility.</p>
+<h2>Third-party services</h2><p>Google handles Drive storage and authorization under its own policies. This static information website is hosted separately; its host may receive ordinary website access logs. The backup does not use those logs or send backup contents to this website's host.</p>
+<p><a href="index.html">Application information</a> · <a href="https://policies.google.com/privacy">Google privacy policy</a> · <a href="https://rclone.org/">rclone documentation</a></p>
+</main></html>
